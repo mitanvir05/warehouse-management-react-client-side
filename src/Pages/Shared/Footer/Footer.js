@@ -1,10 +1,17 @@
 import React from "react";
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
-    <div>
-      <h3>This is a footer</h3>
-    </div>
+    <footer
+      style={{ marginTop: "auto" }}
+      className="bg-dark text-white text-center "
+    >
+      <p>
+        <small> &copy; {year} </small>
+      </p>
+    </footer>
   );
 };
 
