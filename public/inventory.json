@@ -1,0 +1,30 @@
+[
+  {
+    "_id": 1,
+    "name": "MSI GF63 THIN 11UC",
+    "price": "TK.94950/=",
+    "description": "Event Duration will be 4 Hours. Number of Pictures will be Unlimited.Specially Edited Photos 100 copies.",
+    "img": "https://i.ibb.co/Fw20S7X/pic1.jpg"
+  },
+  {
+    "_id": 2,
+    "name": "MSI Modern 14 B11MOU",
+    "price": "TK.93,000/=",
+    "description": "Event Duration will be 5 Hours. Number of Pictures will be Unlimited.Specially Edited Photos 200 copies.",
+    "img": "https://i.ibb.co/sJfQSKC/pic2.jpg"
+  },
+  {
+    "_id": 3,
+    "name": "MSI Modern 14 B11SB",
+    "price": "TK.84,500/=",
+    "description": "Event Duration will be 6 Hours. Number of Pictures will be Unlimited.Specially Edited Photos 300 copies.",
+    "img": "https://i.ibb.co/ScrngXT/pic3.jpg"
+  },
+  {
+    "_id": 4,
+    "name": "MSI Modern 15 A11SB",
+    "price": "TK.81,950/=",
+    "description": "Event Duration will be 7 Hours. Number of Pictures will be Unlimited.Specially Edited Photos 400 copies.",
+    "img": "https://i.ibb.co/jRWjTwm/pic4.jpg"
+  }
+]
