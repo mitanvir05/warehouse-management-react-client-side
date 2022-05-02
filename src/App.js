@@ -6,6 +6,7 @@ import Footer from "./Pages/Shared/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blogs from "./Pages/Blogs/Blogs/Blogs";
 import InventoryDetail from "./Pages/InventoryDetail/InventoryDetail";
+import Login from "./Pages/Login/Login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           path="/inventory/:_id"
           element={<InventoryDetail></InventoryDetail>}
         ></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
       </Routes>
       <Footer></Footer>
