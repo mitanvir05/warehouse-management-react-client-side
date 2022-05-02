@@ -11,7 +11,7 @@ const Inventory = ({ inventory }) => {
           <h3>{price}</h3>
           <p className="card-text">{description}</p>
           <a href="#" class="btn btn-primary">
-            Go somewhere
+            Manage Stock
           </a>
         </div>
       </div>
