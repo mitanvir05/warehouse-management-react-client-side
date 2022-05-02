@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Blogs from "./Pages/Blogs/Blogs/Blogs";
 import InventoryDetail from "./Pages/InventoryDetail/InventoryDetail";
 import Login from "./Pages/Login/Login";
+import Register from "./Pages/Login/Register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           element={<InventoryDetail></InventoryDetail>}
         ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
       </Routes>
       <Footer></Footer>
