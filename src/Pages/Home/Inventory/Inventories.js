@@ -13,7 +13,7 @@ const Inventories = () => {
       <h1 className="text-primary">Total : {inventories.length}</h1>
       <div className="row">
         {inventories.map((inventory) => (
-          <Inventory key={inventory.id} inventory={inventory}></Inventory>
+          <Inventory key={inventory._id} inventory={inventory}></Inventory>
         ))}
       </div>
     </div>
