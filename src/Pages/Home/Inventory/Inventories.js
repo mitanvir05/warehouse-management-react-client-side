@@ -9,9 +9,9 @@ const Inventories = () => {
       .then((data) => setInventories(data));
   }, []);
   return (
-    <div className="row">
-      <div className="container">
-        <h1 className="text-primary">Total : {inventories.length}</h1>
+    <div className="container">
+      <h1 className="text-primary">Total : {inventories.length}</h1>
+      <div className="row">
         {inventories.map((inventory) => (
           <Inventory key={inventory.id} inventory={inventory}></Inventory>
         ))}
