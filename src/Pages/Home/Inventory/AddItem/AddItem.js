@@ -32,7 +32,7 @@ const AddItem = () => {
         <input
           className="mb-2"
           placeholder="Price"
-          type="number"
+          type="text"
           {...register("price")}
         />
         <input
