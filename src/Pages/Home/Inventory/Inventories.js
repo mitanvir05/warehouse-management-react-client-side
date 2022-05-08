@@ -12,7 +12,7 @@ const Inventories = () => {
     <div className="container">
       <h1 className="text-primary">Total : {inventories.length}</h1>
       <div className="row">
-        {inventories.map((inventory) => (
+        {inventories?.slice(1, 7).map((inventory) => (
           <Inventory key={inventory._id} inventory={inventory}></Inventory>
         ))}
       </div>
