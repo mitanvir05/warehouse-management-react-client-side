@@ -9,7 +9,7 @@ const InventoryDetail = () => {
     fetch(url)
       .then((response) => response.json())
       .then((data) => setInventoriesDetail(data));
-  }, []);
+  }, [_id]);
   return (
     <div className="g-5 col-sm-12 col-md-6 col-lg-4">
       <div className="card ">
@@ -22,6 +22,11 @@ const InventoryDetail = () => {
           <p className="card-text">{inventoriesDetail.description}</p>
           <button className="btn btn-primary">Delivered</button>
         </div>
+      </div>
+
+      <div>
+        <input className="m-2" placeholder="Enter Quantity" type="number" />
+        <button className="btn btn-primary">Add Quantity</button>
       </div>
     </div>
   );
