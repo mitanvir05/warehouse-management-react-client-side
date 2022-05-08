@@ -51,7 +51,7 @@ const Register = () => {
         Already have an account?{" "}
         <Link
           to="/login"
-          className="text-danger pe-auto text-decoration-none"
+          className="text-danger pe-auto text-decoration-none btn"
           onClick={navigateLogin}
         >
           Please Login

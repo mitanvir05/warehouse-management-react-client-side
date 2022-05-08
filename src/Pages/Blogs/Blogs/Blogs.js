@@ -37,7 +37,6 @@ const Blogs = () => {
         signed using a cryptographic algorithm to ensure that the claims cannot
         be altered after the token is issued.
       </p>
-      https://stackoverflow.com/questions/72158120/how-can-i-increase-quantity-by-clicking-that-delivered-button-in-react-js-and-al/72158258#72158258
     </div>
   );
 };

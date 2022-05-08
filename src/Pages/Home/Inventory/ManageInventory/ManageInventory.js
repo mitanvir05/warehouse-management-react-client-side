@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useInventories from "../../../../hooks/useInventories";
 
 const ManageInventory = () => {
@@ -20,6 +21,10 @@ const ManageInventory = () => {
         });
     }
   };
+  const navigate = useNavigate();
+  const navigateToInventoryDetail = (_id) => {
+    navigate(`/inventory/${_id}`);
+  };
   return (
     <div>
       <h4 className="text-center">Manage Inventory</h4>
@@ -39,6 +44,12 @@ const ManageInventory = () => {
                   className="btn btn-primary"
                 >
                   Delete
+                </button>
+                <button
+                  onClick={() => navigateToInventoryDetail(inventory._id)}
+                  className="btn btn-primary m-2"
+                >
+                  Update
                 </button>
               </div>
             </div>

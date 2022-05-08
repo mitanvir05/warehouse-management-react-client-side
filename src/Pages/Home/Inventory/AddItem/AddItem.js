@@ -59,7 +59,11 @@ const AddItem = () => {
           type="text"
           {...register("img")}
         />
-        <input className="mb-5" value="Add Item" type="submit" />
+        <input
+          className="mb-5 btn btn-primary"
+          value="Add Item"
+          type="submit"
+        />
       </form>
     </div>
   );

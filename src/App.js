@@ -12,6 +12,7 @@ import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
 import ManageInventory from "./Pages/Home/Inventory/ManageInventory/ManageInventory";
 import AddItem from "./Pages/Home/Inventory/AddItem/AddItem";
 import NotFound from "./Pages/NotFound/NotFound";
+import About from "./Pages/About/About";
 
 function App() {
   return (
@@ -32,9 +33,10 @@ function App() {
           element={<ManageInventory></ManageInventory>}
         ></Route>
         <Route path="add_item" element={<AddItem></AddItem>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
-        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
